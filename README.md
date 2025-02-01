@@ -1,8 +1,12 @@
-# React + Vite
+#Mod11-Lesson-4-Assignment-1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description:In this project, I developed a React application utilizing React Router for dynamic routing. The `NavigationBar` component offers links to the homepage, character browsing, and comics sections. The `BrowseCharacters` component fetches and displays a list of Marvel characters, each linked to its respective details page using dynamic routes. The `CharacterDetail` component retrieves and displays detailed information about a selected character based on the character ID from the URL. The routing paths are defined as follows:
 
-Currently, two official plugins are available:
+- `/`: HomePage
+- `/characters`: Character Browsing
+- `/character/:characterId`: Character Details
+- `/comics`: Comics
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This setup enables seamless navigation between different sections of the application. 
+
+Author: Donald Clemons
